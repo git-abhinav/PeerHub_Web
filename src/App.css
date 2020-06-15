@@ -1,0 +1,37 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+  background-color: grey;
+  font-size: 2rem;
+  padding: 5px;
+  margin: 1em;
+}
+.addMarginToButton{
+  margin: 1em
+}
+.addLeftSpace{
+  margin-left: 0.25em;
+}
+.home {
+  background-color: grey;
+  font-size: 2rem;
+  padding: 5px
+}
+#react-logo {
+  color: #00d8ff;
+}
+#imdb-logo {
+  color: #f5de50;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
